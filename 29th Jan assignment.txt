@@ -1,0 +1,32 @@
+1) Who developed Python programming language? 
+Python was developed by dutch programmer Guido van Rossum
+2) Which type of Programming does Python support?
+Python is an interpreted programming language, which supports object-oriented, structured, and functional programming.
+3) Is Python case sensitive when dealing with identifiers?
+Yes, it's case sensitive
+4) Which of the following is the correct extension of the Python file?
+.py
+5)  Is Python code compiled or interpreted?
+Both compiled and interpreted
+6) Name a few block of code used to define in Python language?
+Indentation
+7) State a character used to give single-line comments in Python?
+# is used for single line comments
+8) Mention functions can help us to find the version of python that we are currently working on
+sys.version
+9)  Python supports the creation of anonymous functions at runtime, using a construct called 
+Lambda function
+10) What does pip stand for python?
+Preferred Installer Program
+11) Mention a few built-in function in python
+range(),print(),max(),min(),id(),type()
+12) What is the maximum possible length of an identifier in Python?
+Can be of any length, no specific limit
+13) What are the benefits of using python?
+It's free, Object oriented, Simple syntax so easy to learn, Dynamically typed, Huge collection of libraries
+14) How is Memory Managed in Python?
+Static Memory Allocation id done via stack area.Heap data structure is used for dynamic memory.
+How to install Python on Windows and set path variables?
+Python can be installed from it's official website: python.org. Path variables can be set via the installation of a recent version of Python and manual entry of the paths
+Is indentation required in python?
+Yes, it's required
