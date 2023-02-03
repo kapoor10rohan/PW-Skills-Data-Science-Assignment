@@ -25,7 +25,7 @@ Can be of any length, no specific limit
 13) What are the benefits of using python?
 It's free, Object oriented, Simple syntax so easy to learn, Dynamically typed, Huge collection of libraries
 14) How is Memory Managed in Python?
-Static Memory Allocation id done via stack area.Heap data structure is used for dynamic memory.
+Static Memory Allocation is done via stack area.Heap data structure is used for dynamic memory.
 How to install Python on Windows and set path variables?
 Python can be installed from it's official website: python.org. Path variables can be set via the installation of a recent version of Python and manual entry of the paths
 Is indentation required in python?
