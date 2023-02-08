@@ -1,0 +1,37 @@
+Q1. Explain Class and Object with respect to Object-Oriented Programming. Give a suitable example.
+Class is a blueprint to create objects. It's a collection of the objects. It is used by using the keyword class.
+Objects is an entity which has a state and behavior. Everything in python is an object.
+E.g.
+class animal():
+        pass
+obj=animal() 
+
+Q2. Name the four pillars of OOPs.
+Inheritance
+Polymorphism
+Encapsulation
+Abstraction
+
+Q3. Explain why the __init__() function is used. Give a suitable example.
+The __init__() function is used to do any initialization we want to do with the object. It is like a constructors in C++ and Java.
+E.g.
+class animal():
+        def __init__(self, name):
+                self.name = name
+cat=animal('cat')       
+
+Q4. Why self is used in OOPs?
+
+Self can be used as parametern in a method. If we have a method that takes no arguments, then we still have to have one argument. This is similar to this pointer in C++ and this reference in Java. Class methods must have an extra first parameter in the method definition.
+
+Q5. What is inheritance? Give an example for each type of inheritance.
+Inheritance is the capability of one class to derive or inherit the properties from another class.
+Types of Inheritance – 
+Single Inheritance:
+Single-level inheritance enables a derived class to inherit characteristics from a single-parent class.
+Multilevel Inheritance:
+Multi-level inheritance enables a derived class to inherit properties from an immediate parent class which in turn inherits properties from his parent class.
+Hierarchical Inheritance:
+Hierarchical level inheritance enables more than one derived class to inherit properties from a parent class.
+Multiple Inheritance:
+Multiple level inheritance enables one derived class to inherit properties from more than one base class.
