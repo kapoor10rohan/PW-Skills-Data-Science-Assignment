@@ -1,0 +1,65 @@
+Q1. What is Web Scraping? Why is it Used? Give three areas where Web Scraping is used to get data.
+
+Web scraping is the process of collecting structured web data in an automated manner. It’s also widely known as web data extraction or web data scraping.
+
+A web scraper automates the process of extracting information from other websites, quickly and accurately. The data extracted is delivered in a structured format, making it easier to analyze and use in your projects. The process is extremely simple and works by way of two parts: a web crawler and a web scraper.
+
+Some of the main use cases of web scraping include price monitoring, price intelligence, news monitoring, lead generation, and market research among many others.
+In general, web scraping is used by people and businesses who want to make use of publicly available web data to generate valuable insights and make smarter decisions.
+
+Web scraping is used for various purposes, including:
+
+Data collection: Web scraping is used to collect data from websites that can be analyzed and used for various purposes such as market research, price monitoring, sentiment analysis, and more. For example, a business might use web scraping to gather data on their competitors' prices and products, or a researcher might use web scraping to collect data on social media posts related to a particular topic.
+
+Content aggregation: Web scraping is used to collect and aggregate content from multiple websites to create a new, custom content source. For example, a news aggregator might use web scraping to collect and display news stories from multiple sources in one place.
+
+Machine learning: Web scraping is used to collect data for training machine learning models. For example, a machine learning model might be trained to recognize images of specific products, and web scraping could be used to collect a large dataset of images for training the model.
+
+
+Q2. What are the different methods used for Web Scraping?
+
+General techniques used for web scraping
+
+Although the method of web scraping is still a developing process, it favors more practical solutions that are based on already-existing applications and technologies as opposed to its more ambitious counterparts that require more complicated breakthroughs and knowledge to work. Here are just some of the various Web scraping methods available:
+
+Copy-pasting. The manual human examination and copy-pasting method may sometimes prove irreplaceable. At times, this technique may be the only practical method to use especially when websites are setup with barriers and machine automation cannot be enabled.
+
+DOM Parsing. In order to dynamically modify or inspect a web page, client-side scripts parse the contents of the web page into a DOM tree. By embedding a program into the web browser, you can then retrieve the information from the tree.
+
+HTTP Programming. Using socket programming, posting HTTP requests can help one retrieve dynamic as well as static web page information.
+
+Recognizing Semantic Annotation. Most web pages have semantic annotations/markup or metadata that can be easily retrieved. This could be a simple case of DOM parsing if the metadata is just embedded in the web page. Web scrapers can also use the annotations located in the semantic layer of the web page before actually scraping it.
+
+Text Grepping. Using Python programming languages or Perl, one can use the UNIX grep command to extract valuable data and information from web pages.
+
+Web scraping Software. If you do not want to manually use web-scraping codes, you can make use of a software that can do the web scraping for you. It can automatically retrieve the information off the web page, convert it into recognizable information, and store it in a local database.
+
+
+Q3. What is Beautiful Soup? Why is it used?
+
+Beautiful Soup is a Python library for getting data out of HTML, XML, and other markup languages. Say you’ve found some webpages that display data relevant to your research, such as date or address information, but that do not provide any way of downloading the data directly. Beautiful Soup helps you pull particular content from a webpage, remove the HTML markup, and save the information. It is a tool for web scraping that helps you clean up and parse the documents you have pulled down from the web.
+
+Some key features that make beautiful soup unique are:
+
+Beautiful Soup provides a few simple methods and Pythonic idioms for navigating, searching, and modifying a parse tree.
+Beautiful Soup automatically converts incoming documents to Unicode and outgoing documents to UTF-8.
+Beautiful Soup sits on top of popular Python parsers like lxml and html5lib, which allows​ us to try out different parsing strategies or trade speed for flexibility.
+
+Q4. Why is flask used in this Web Scraping project?
+
+Flask is a popular Python web framework that is often used in web scraping projects. Here are a few reasons why Flask might be used in a web scraping project:
+
+Routing: Flask provides a simple and easy-to-use routing system that makes it easy to create APIs and web pages that serve as endpoints for web scraping scripts.
+
+Templates: Flask includes a templating engine that can be used to create HTML pages and API responses. This can be useful for presenting the scraped data in a readable and user-friendly format.
+
+Integration with other libraries: Flask can be easily integrated with other Python libraries like Requests, Beautiful Soup, and Pandas, which are commonly used in web scraping projects.
+
+Testing and debugging: Flask provides a built-in development server and a testing framework, making it easy to test and debug web scraping scripts
+
+
+Q5. Write the names of AWS services used in this project. Also, explain the use of each service.
+
+AWS CodePipeline is a fully managed continuous delivery service that helps automate the release process for software applications. CodePipeline can be used to build, test, and deploy applications using a variety of source code management and build tools, such as Git, Jenkins, and AWS CodeBuild. CodePipeline provides a visual pipeline that allows developers to easily track the progress of each stage in the release process, and can be integrated with other AWS services, such as Elastic Beanstalk, to deploy applications to the cloud.
+
+AWS Elastic Beanstalk is a fully managed platform that makes it easy to deploy and scale web applications in the cloud. Elastic Beanstalk supports a wide range of programming languages and frameworks, including Java, .NET, PHP, Node.js, Python, Ruby, and Go, and can be used to deploy applications to popular cloud platforms, such as Amazon EC2 and AWS Fargate. Elastic Beanstalk also provides a range of tools for monitoring and managing applications, such as automatic scaling, application health monitoring, and log file access.
