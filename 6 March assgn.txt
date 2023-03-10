@@ -1,0 +1,184 @@
+
+Q1. What is Statistics?
+
+Statistics is the science concerned with developing and studying methods for collecting, analyzing, interpreting and presenting empirical data. Statistics is a highly interdisciplinary field; research in statistics finds applicability in virtually all scientific fields and research questions in the various scientific fields motivate the development of new statistical methods and theory. In developing methods and studying the theory that underlies the methods statisticians draw on a variety of mathematical and computational tools.
+
+Q2. Define the different types of statistics and give an example of when each type might be used.
+
+Descriptive Statistics
+In the descriptive Statistics, the Data is described in a summarized way. The summarization is done from the sample of the population using different parameters like Mean or standard deviation.
+Descriptive Statistics are a way of using charts, graphs, and summary measures to organize, represent, and explain a set of Data.
+Data is typically arranged and displayed in tables or graphs summarizing details such as histograms, pie charts, bars or scatter plots. Descriptive Statistics are just descriptive and thus do not require normalization beyond the Data collected.
+
+Inferential Statistics
+In the Inferential Statistics, we try to interpret the Meaning of descriptive Statistics. After the Data has been collected, analyzed, and summarised we use Inferential Statistics to describe the Meaning of the collected Data. 
+Inferential Statistics use the probability principle to assess whether trends contained in the research sample can be generalized to the larger population from which the sample originally comes.
+Inferential Statistics are intended to test hypotheses and investigate relationships between variables and can be used to make population predictions.
+Inferential Statistics are used to draw conclusions and inferences, i.e., to make valid generalizations from samples.  
+
+
+Q3. What are the different types of data and how do they differ from each other? Provide an example of when each type might be used.
+Types of Data
+
+Qualitative or Categorical Data
+
+Qualitative or Categorical Data is data that can’t be measured or counted in the form of numbers. These types of data are sorted by category, not by number. That’s why it is also known as Categorical Data. These data consist of audio, images, symbols, or text. The gender of a person, i.e., male, female, or others, is qualitative data.
+
+Qualitative data tells about the perception of people. This data helps market researchers understand the customers’ tastes and then design their ideas and strategies accordingly. 
+
+The other examples of qualitative data are :
+
+What language do you speak
+Favorite holiday destination
+Opinion on something (agree, disagree, or neutral)
+Colors
+
+The Qualitative data are further classified into two parts :
+
+Nominal Data
+
+Nominal Data is used to label variables without any order or quantitative value. The color of hair can be considered nominal data, as one color can’t be compared with another color.
+
+Examples of Nominal Data :
+
+Colour of hair (Blonde, red, Brown, Black, etc.)
+Marital status (Single, Widowed, Married)
+Nationality (Indian, German, American)
+Gender (Male, Female, Others)
+Eye Color (Black, Brown, etc.)
+
+Ordinal Data
+
+Ordinal data have natural ordering where a number is present in some kind of order by their position on the scale. These data are used for observation like customer satisfaction, happiness, etc., but we can’t do any arithmetical tasks on them. 
+  
+Examples of Ordinal Data :
+
+When companies ask for feedback, experience, or satisfaction on a scale of 1 to 10
+Letter grades in the exam (A, B, C, D, etc.)
+Ranking of people in a competition (First, Second, Third, etc.)
+Economic Status (High, Medium, and Low)
+Education Level (Higher, Secondary, Primary)
+
+Quantitative Data
+
+Quantitative data can be expressed in numerical values, making it countable and including statistical data analysis. These kinds of data are also known as Numerical data. It answers the questions like “how much,” “how many,” and “how often.” For example, the price of a phone, the computer’s ram, the height or weight of a person, etc., falls under quantitative data. 
+
+Quantitative data can be used for statistical manipulation. These data can be represented on a wide variety of graphs and charts, such as bar graphs, histograms, scatter plots, boxplots, pie charts, line graphs, etc.
+
+Examples of Quantitative Data : 
+
+Height or weight of a person or object
+Room Temperature
+Scores and Marks (Ex: 59, 80, 60, etc.)
+Time
+The Quantitative data are further classified into two parts :
+
+Discrete Data
+
+The term discrete means distinct or separate. The discrete data contain the values that fall under integers or whole numbers. The total number of students in a class is an example of discrete data. These data can’t be broken into decimal or fraction values.
+
+The discrete data are countable and have finite values; their subdivision is not possible. These data are represented mainly by a bar graph, number line, or frequency table.
+
+Examples of Discrete Data : 
+
+Total numbers of students present in a class
+Cost of a cell phone
+Numbers of employees in a company
+The total number of players who participated in a competition
+Days in a week
+Continuous Data
+
+Continuous data are in the form of fractional numbers. It can be the version of an android phone, the height of a person, the length of an object, etc. Continuous data represents information that can be divided into smaller levels. The continuous variable can take any value within a range. 
+
+The key difference between discrete and continuous data is that discrete data contains the integer or whole number. Still, continuous data stores the fractional numbers to record different types of data such as temperature, height, width, time, speed, etc.
+
+Examples of Continuous Data : 
+
+Height of a person
+Speed of a vehicle
+“Time-taken” to finish the work 
+Wi-Fi Frequency
+Market share price
+
+Q4. Categorise the following datasets with respect to quantitative and qualitative data types:
+(i) Grading in exam: A+, A, B+, B, C+, C, D, E
+Qualitative
+(ii) Colour of mangoes: yellow, green, orange, red
+Qualitative
+(iii) Height data of a class: [178.9, 179, 179.5, 176, 177.2, 178.3, 175.8,...]
+Quantitative
+(iv) Number of mangoes exported by a farm: [500, 600, 478, 672, ...]
+Quantitative
+
+Q5. Explain the concept of levels of measurement and give an example of a variable for each level.
+
+The nominal scale simply categorizes variables according to qualitative labels (or names). These labels and groupings don’t have any order or hierarchy to them, nor do they convey any numerical value. For example, the variable “hair color” could be measured on a nominal scale according to the following categories: blonde hair, brown hair, gray hair, and so on. 
+
+The ordinal scale also categorizes variables into labeled groups, and these categories have an order or hierarchy to them. For example, you could measure the variable “income” on an ordinal scale as follows: low income, medium income, high income. Another example could be level of education, classified as follows: high school, master’s degree, doctorate. These are still qualitative labels (as with the nominal scale), but you can see that they follow a hierarchical order. 
+
+The interval scale is a numerical scale which labels and orders variables, with a known, evenly spaced interval between each of the values. An oft-cited example of interval data is temperature in Fahrenheit, where the difference between 10 and 20 degrees Fahrenheit is exactly the same as the difference between, say, 50 and 60 degrees Fahrenheit. 
+
+The ratio scale is exactly the same as the interval scale, with one key difference: The ratio scale has what’s known as a “true zero.” A good example of ratio data is weight in kilograms. If something weighs zero kilograms, it truly weighs nothing—compared to temperature (interval data), where a value of zero degrees doesn’t mean there is “no temperature,” it simply means it’s extremely cold! 
+
+Q6. Why is it important to understand the level of measurement when analyzing data? Provide an example to illustrate your answer.
+
+Level of measurement is important as it determines the type of statistical analysis you can carry out. As a result, it affects both the nature and the depth of insights you’re able to glean from your data. Certain statistical tests can only be performed where more precise levels of measurement have been used, so it’s essential to plan in advance how you’ll gather and measure your data.
+
+For example, suppose a company conducted a survey to determine the favorite type of ice cream among its customers. The responses could be categorized as follows:
+Chocolate Vanilla Strawberry Mint chocolate chip Rocky road In this case, the data is nominal because the categories cannot be ranked. The company could calculate the percentage of customers who prefer each flavor, but they could not determine whether one flavor is more popular than another.
+
+Now, suppose the same company conducted a survey to determine the satisfaction level of its customers with its service. The responses could be categorized as follows:
+Very satisfied Satisfied Neutral Dissatisfied Very dissatisfied In this case, the data is ordinal because the categories can be ranked, but the distance between categories is unknown. The company could calculate the percentage of customers who are very satisfied, satisfied, neutral, dissatisfied, and very dissatisfied, but they could not determine the exact difference in satisfaction level between customers who are very satisfied and those who are satisfied.
+
+Q7. How nominal data type is different from ordinal data type.
+
+Nominal data can’t be quantified, neither they have any intrinsic ordering	Ordinal data gives some kind of sequential order by their position on the scale
+Nominal data is qualitative data or categorical data	Ordinal data is said to be “in-between” qualitative data and quantitative data
+Nominal data don’t provide any quantitative value, neither can we perform any arithmetical operation	Ordinal provide sequence and can assign numbers to ordinal data but cannot perform the arithmetical operation
+Nominal data cannot be used to compare with one another	Ordinal data can help to compare one item with another by ranking or ordering
+Nominal Examples: Eye color, housing style, gender, hair color, religion, marital status, ethnicity, etc	
+Ordinal Examples: Economic status, customer satisfaction, education level, letter grades, etc 
+
+Q8. Which type of plot can be used to display data in terms of range?
+
+A histogram is a graphical representation of data points organized into user-specified ranges. Similar in appearance to a bar graph, the histogram condenses a data series into an easily interpreted visual by taking many data points and grouping them into logical ranges or bins.
+
+Q9. Describe the difference between descriptive and inferential statistics. Give an example of each type of statistics and explain how they are used.
+
+Descriptive statistics is used to describe the characteristics of the population using a sample. Inferential statistics uses various analytical tools to draw inferences about the population using samples.
+Descriptive	Measures of central tendency and measures of dispersion. Inferential Hypothesis testing and regression analysis.
+Descriptive Use	Organizes, describes and presents data in a meaningful way with the help of charts and graphs.	Inferential Tests, predicts, and compares data obtained from various samples.
+Descriptive	It is used to summarize known data in a way that can be used for further predictions and analysis.	Inferential tries to use the summarized samples to draw conclusions about the population.
+Suppose the scores of 100 students belonging to a specific country are available. The performance of these students needs to be examined. This data by itself will not yield any valuable results. However, by using descriptive statistics, the spread of the marks can be obtained thus, giving a clear idea regarding the performance of each student.
+Now suppose the scores of the students of an entire country need to be examined. Using a sample of, say 100 students, inferential statistics is used to make generalizations about the population.
+
+Q10. What are some common measures of central tendency and variability used in statistics? Explain how each measure can be used to describe a dataset.
+
+Mean, median, and mode are the measures of central tendency, used to study the various characteristics of a given set of data. A measure of central tendency describes a set of data by identifying the central position in the data set as a single value. We can think of it as a tendency of data to cluster around a middle value. In statistics, the three most common measures of central tendencies are Mean, Median, and Mode.
+
+Mean: The mean is also known as the average, and it is calculated by adding up all the values in a data set and dividing by the total number of values.
+Median: The median is the middle value of a data set, which separates the highest and lowest values equally. It is calculated by arranging the data set in order from lowest to highest and finding the value in the exact middle.
+Mode: The mode is the value that appears most frequently in a data set.
+
+Variability (also called spread or dispersion) refers to how spread out a set of data is. Variability gives you a way to describe how much data sets vary and allows you to use statistics to compare your data to other sets of data. The four main ways to describe variability in a data set are:
+
+range
+Interquartile range
+Variance
+Standard deviation.
+
+Range
+
+The range is the amount between your smallest and largest item in the set. You can find the range by subtracting the smallest number from the largest. For example, let’s say you earned $250 one week, $30 the following week and $800 the third week. The range for your pay (i.e. how much it varies) is $30 to $800.
+
+Interquartile Range
+
+The interquartile range is almost the same as the range, only instead of stating the range for the whole data set, you’re giving the amount for the “middle fifty“. It’s sometimes more useful than the range because it tells you where most of your values lie. The formula is IQR = Q3 – Q1, where Q3 is the third quartile and Q1 is the first quartile. You’re basically taking one of the smallest values (at the 25th percentile) and subtracting it from one of the largest values (at the 75th percentile). The following boxplot shows the interquartile range, represented by the box. The whiskers (the lines coming out from either side of the box) represent the first quarter of the data and the last quarter.
+
+Variance
+
+The variance of a data set gives you a rough idea of how spread out your data is. A small number for the variance means your data set is tightly clustered together and a large number means the values are more spread apart. The variance is rarely useful except to calculate the standard deviation.
+
+Standard Deviation
+
+The standard deviation tells you how tightly your data is clustered around the mean (the average). A small SD indicates that your data is tightly clustered — you’ll also have a taller bell curve; a large SD tells you that your data is more spread apart.
