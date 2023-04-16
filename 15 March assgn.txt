@@ -1,0 +1,41 @@
+Q1 Explain the following with an example
+Artificial Intelligence
+AI enables the machine to think, that is without any human intervention the machine will be able to take its own decision. It is a broad area of computer science that makes machines seem like they have human intelligence. So it’s not only programming a computer to drive a car by obeying traffic signals but it’s when that program also learns to exhibit the signs of human-like road rage.
+Machine Learning
+Machine Learning is a subset of Artificial Intelligence that uses statistical learning algorithms to build systems that have the ability to automatically learn and improve from experiences without being explicitly programmed.
+Most of us use machine learning in our day to day life when we use services like recommendation systems on Netflix, Youtube, Spotify; search engines like google and yahoo; voice assistants like google home and amazon alexa. In Machine Learning we train the algorithm by providing it with a lot of data and allowing it to learn more about the processed information.
+Deep Learning
+Deep learning is a machine learning technique that is inspired by the way a human brain filters information, it is basically learning from examples. It helps a computer model to filter the input data through layers to predict and classify information. Since deep learning processes information in a similar manner as a human brain does, it is mostly used in applications that people generally do. It is the key technology behind driver-less cars, that enables them to recognize a stop sign and to distinguish between a pedestrian and lamp post. Most of the deep learning methods use neural network architectures, so they are often referred to as deep neural networks.
+
+Q2- What is supervised learning? List some examples of supervised learning.
+In supervised learning we have input variables (x) and an output variable (Y) and we use an algorithm to learn the mapping from input to output. In other words, a supervised learning algorithm takes a known set of input dataset and its known responses to the data (output) to learn the regression/classification model. A learning algorithm then trains a model to generate a prediction for the response to new data or the test datasets.
+Supervised learning is classified into two categories of algorithms: 
+Classification: A classification problem is when the output variable is a category, such as “Red” or “blue” , “disease” or “no disease”.
+Regression: A regression problem is when the output variable is a real value, such as “dollars” or “weight”.
+
+Q3- What is unsupervised learning? List some examples of unsupervised learning.
+Unsupervised Learning is used when we do not have labelled data. Its main focus is to learn more about the data by inferring patterns in the dataset without reference to the known outputs. It is called unsupervised because the algorithms are left on their own to group the unsorted information by finding similarities, differences and patterns in the data. Unsupervised learning is mostly performed as a part of exploratory data analysis. It is most commonly used to find clusters of data and for dimensionality reduction.
+For instance, suppose it is given an image having both dogs and cats which it has never seen.
+Thus the machine has no idea about the features of dogs and cats so we can’t categorize it as ‘dogs and cats ‘. But it can categorize them according to their similarities, patterns, and differences, i.e., we can easily categorize the above picture into two parts. The first may contain all pics having dogs in them and the second part may contain all pics having cats in them.
+
+Q4- What is the difference between AI, ML, DL, and DS?
+AI is an umbrella discipline that covers everything related to making machines smarter. Machine Learning (ML) is commonly used along with AI but it is a subset of AI. ML refers to an AI system that can self-learn based on the algorithm. Systems that get smarter and smarter over time without human intervention is ML. Deep Learning (DL) is a machine learning (ML) applied to large data sets. Most AI work involves ML because intelligent behaviour requires considerable knowledge. Data science is a broad field that spans the collection, management, analysis and interpretation of large amounts of data with a wide range of applications. It integrates all the terms above and more to summarize or extract insights from data (exploratory data analysis) and make predictions from large datasets (predictive analytics).
+
+Q5- What are the main differences between supervised, unsupervised, and semi-supervised learning?
+Supervised learning makes use of example data to show what “correct” data looks like. The data is structured to show the outputs of given inputs.
+A machine learning algorithm that classifies fruits might have pictures of fruits such as apples, bananas, grapes and oranges as inputs and the names of these fruits as outputs.
+Unsupervised learning doesn’t have any prior training data. In our fruit classification example, an algorithm might just be shown pictures of fruit and told to classify them.
+Semi-supervised learning attempts to take a middle ground by labeling some of the data. For example, the apple and orange might be labeled in the fruit classification program, but the banana and the grapes aren’t.
+
+Q6- What is train, test and validation split? Explain the importance of each term.
+Training datasets comprise samples used to fit models under construction, i.e., carry out the actual AI development. Constructing these robust pillars of AI involves following best practices.
+In contrast, validation datasets contain different samples to evaluate trained ML models. It is still possible to tune and control the model at this stage.
+A test dataset is a separate sample to provide an unbiased final evaluation of a model fit. The inputs are similar to the previous stages but not the same data.
+Datasets used to train and validate can play additional roles in model preparation, such as selecting optional features. The fit of the final model is a combined result from the aggregate of these inputs.
+
+Q7- How can unsupervised learning be used in anomaly detection?
+Anomaly detection techniques of unsupervised nature assume that normal data points occur considerably more frequently than anomalous data points. This assumption is used to classify data points that occur less frequently as anomalies. Unsupervised techniques assign each data point a score instead of a label.
+
+Q8- List down some commonly used supervised learning algorithms and unsupervised learning
+algorithms.
+The most commonly used Supervised Learning algorithms are decision tree, logistic regression, linear regression, support vector machine. The most commonly used Unsupervised Learning algorithms are k-means clustering, hierarchical clustering, and apriori algorithm.
