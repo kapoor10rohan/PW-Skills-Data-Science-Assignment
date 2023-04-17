@@ -1,0 +1,103 @@
+Q1: Define overfitting and underfitting in machine learning. What are the consequences of each, and how
+can they be mitigated?
+
+Overfitting occurs when our machine learning model tries to cover all the data points or more than the required data points present in the given dataset. Because of this, the model starts caching noise and inaccurate values present in the dataset, and all these factors reduce the efficiency and accuracy of the model. The overfitted model has low bias and high variance.
+Underfitting occurs when our machine learning model is not able to capture the underlying trend of the data. To avoid the overfitting in the model, the fed of training data can be stopped at an early stage, due to which the model may not learn enough from the training data. As a result, it may fail to find the best fit of the dominant trend in the data.
+
+Both overfitting and underfitting cause the degraded performance of the machine learning model. But the main cause is overfitting, so there are some ways by which we can reduce the occurrence of overfitting in our model.
+
+Cross-Validation
+Training with more data
+Removing features
+Early stopping the training
+Regularization
+Ensembling
+
+Q2: How can we reduce overfitting? Explain in brief.
+
+Train with more data
+With the increase in the training data, the crucial features to be extracted become prominent. The model can recognize the relationship between the input attributes and the output variable. The only assumption in this method is that the data to be fed into the model should be clean; otherwise, it would worsen the problem of overfitting.
+
+Data augmentation
+An alternative method to training with more data is data augmentation, which is less expensive and safer than the previous method. Data augmentation makes a sample data look slightly different every time the model processes it. 
+
+Addition of noise to the input data 
+Another similar option as data augmentation is adding noise to the input and output data. Adding noise to the input makes the model stable without affecting data quality and privacy while adding noise to the output makes the data more diverse. Noise addition should be done in limit so that it does not make the data incorrect or too different.
+Feature selection
+Every model has several parameters or features depending upon the number of layers, number of neurons, etc.  The model can detect many redundant features or features determinable from other features leading to unnecessary complexity. We very well know that the more complex the model, the higher the chances of the model to overfit. 
+Cross-validation
+Cross-validation is a robust measure to prevent overfitting. The complete dataset is split into parts. In standard K-fold cross-validation, we need to partition the data into k folds. Then, we iteratively train the algorithm on k-1 folds while using the remaining holdout fold as the test set. This method allows us to tune the hyperparameters of the neural network or machine learning model and test it using completely unseen data. 
+Simplify data
+Till now, we have come across model complexity to be one of the top reasons for overfitting. The data simplification method is used to reduce overfitting by decreasing the complexity of the model to make it simple enough that it does not overfit. Some of the procedures include pruning a decision tree, reducing the number of parameters in a neural network, 
+Regularization
+If overfitting occurs when a model is too complex, reducing the number of features makes sense. Regularization methods like Lasso, L1 can be beneficial if we do not know which features to remove from our model. Regularization applies a "penalty" to the input parameters with the larger coefficients, which subsequently limits the model's variance. 
+Ensembling
+It is a machine learning technique that combines several base models to produce one optimal predictive model. In Ensemble learning,  the predictions are aggregated to identify the most popular result. Well-known ensemble methods include bagging and boosting, which prevents overfitting as an ensemble model is made from the aggregation of multiple models. 
+Early stopping
+This method aims to pause the model's training before memorizing noise and random fluctuations from the data. There can be a risk that the model stops training too soon, leading to underfitting. One has to come to an optimum time/iterations the model should train. 
+Adding dropout layers
+Large weights in a neural network signify a more complex network. Probabilistically dropping out nodes in the network is a simple and effective method to prevent overfitting. In regularization, some number of layer outputs are randomly ignored or “dropped out” to reduce the complexity of the model. 
+
+
+Q3: Explain underfitting. List scenarios where underfitting can occur in ML.
+
+Underfitting refers to a model that can neither model the training data nor generalize to new data.
+
+An underfit machine learning model is not a suitable model and will be obvious as it will have poor performance on the training data.
+
+Underfitting is often not discussed as it is easy to detect given a good performance metric. The remedy is to move on and try alternate machine learning algorithms. Nevertheless, it does provide a good contrast to the problem of overfitting.
+Underfitting happens when:
+Unclean training data containing noise or outliers can be a reason for the model not being able to derive patterns from the dataset.
+The model has a high bias due to the inability to capture the relationship between the input examples and the target values. This usually happens in the case of varied datasets.
+The model is assumed to be too simple—for example, we train a linear model in complex scenarios.
+Incorrect hyperparameters tuning often leads to underfitting due to under-observing of the features.
+
+Q4: Explain the bias-variance tradeoff in machine learning. What is the relationship between bias and
+variance, and how do they affect model performance?
+
+Bias-Variance Trade-Off
+
+While building the machine learning model, it is really important to take care of bias and variance in order to avoid overfitting and underfitting in the model. If the model is very simple with fewer parameters, it may have low variance and high bias. Whereas, if the model has a large number of parameters, it will have high variance and low bias. So, it is required to make a balance between bias and variance errors, and this balance between the bias error and variance error is known as the Bias-Variance trade-off.
+
+For an accurate prediction of the model, algorithms need a low variance and low bias. But this is not possible because bias and variance are related to each other:
+
+If we decrease the variance, it will increase the bias.
+If we decrease the bias, it will increase the variance.
+Bias-Variance trade-off is a central issue in supervised learning. Ideally, we need a model that accurately captures the regularities in training data and simultaneously generalizes well with the unseen dataset. Unfortunately, doing this is not possible simultaneously. Because a high variance algorithm may perform well with training data, but it may lead to overfitting to noisy data. Whereas, high bias algorithm generates a much simple model that may not even capture important regularities in the data. So, we need to find a sweet spot between bias and variance to make an optimal model.
+
+Hence, the Bias-Variance trade-off is about finding the sweet spot to make a balance between bias and variance errors.
+
+Q5: Discuss some common methods for detecting overfitting and underfitting in machine learning models.
+How can you determine whether your model is overfitting or underfitting?
+
+
+Train with more data
+With the increase in the training data, the crucial features to be extracted become prominent. The model can recognize the relationship between the input attributes and the output variable. The only assumption in this method is that the data to be fed into the model should be clean; otherwise, it would worsen the problem of overfitting.
+
+Data augmentation
+An alternative method to training with more data is data augmentation, which is less expensive and safer than the previous method. Data augmentation makes a sample data look slightly different every time the model processes it. 
+
+Addition of noise to the input data 
+Another similar option as data augmentation is adding noise to the input and output data. Adding noise to the input makes the model stable without affecting data quality and privacy while adding noise to the output makes the data more diverse. Noise addition should be done in limit so that it does not make the data incorrect or too different.
+Feature selection
+Every model has several parameters or features depending upon the number of layers, number of neurons, etc.  The model can detect many redundant features or features determinable from other features leading to unnecessary complexity. We very well know that the more complex the model, the higher the chances of the model to overfit. 
+Cross-validation
+Cross-validation is a robust measure to prevent overfitting. The complete dataset is split into parts. In standard K-fold cross-validation, we need to partition the data into k folds. Then, we iteratively train the algorithm on k-1 folds while using the remaining holdout fold as the test set. This method allows us to tune the hyperparameters of the neural network or machine learning model and test it using completely unseen data. 
+Simplify data
+Till now, we have come across model complexity to be one of the top reasons for overfitting. The data simplification method is used to reduce overfitting by decreasing the complexity of the model to make it simple enough that it does not overfit. Some of the procedures include pruning a decision tree, reducing the number of parameters in a neural network, 
+Regularization
+If overfitting occurs when a model is too complex, reducing the number of features makes sense. Regularization methods like Lasso, L1 can be beneficial if we do not know which features to remove from our model. Regularization applies a "penalty" to the input parameters with the larger coefficients, which subsequently limits the model's variance. 
+Ensembling
+It is a machine learning technique that combines several base models to produce one optimal predictive model. In Ensemble learning,  the predictions are aggregated to identify the most popular result. Well-known ensemble methods include bagging and boosting, which prevents overfitting as an ensemble model is made from the aggregation of multiple models. 
+Early stopping
+This method aims to pause the model's training before memorizing noise and random fluctuations from the data. There can be a risk that the model stops training too soon, leading to underfitting. One has to come to an optimum time/iterations the model should train. 
+Adding dropout layers
+Large weights in a neural network signify a more complex network. Probabilistically dropping out nodes in the network is a simple and effective method to prevent overfitting. In regularization, some number of layer outputs are randomly ignored or “dropped out” to reduce the complexity of the model.
+
+Q6: Compare and contrast bias and variance in machine learning. What are some examples of high bias
+and high variance models, and how do they differ in terms of their performance?
+
+
+
+Q7: What is regularization in machine learning, and how can it be used to prevent overfitting? Describe
+some common regularization techniques and how they work.
